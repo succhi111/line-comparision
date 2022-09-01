@@ -1,7 +1,8 @@
 import java.util.Scanner;
 public class LineComparison
 {
-    public static void main(String args[])
+
+    public void CalculateLine()
     {
         System.out.println("Welcome To Line Comparision Computation Program on Master Branch");
 
@@ -45,5 +46,10 @@ public class LineComparison
         {
             System.out.println("Two lines are Equal");
         }
+    }
+    public static void main(String args[])
+    {
+        LineComparison LC = new LineComparison();
+        LC.CalculateLine();
     }
 }
